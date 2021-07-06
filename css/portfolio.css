@@ -1,0 +1,109 @@
+/* RESET */
+html,body,div,ul{
+  margin:0;
+  padding:0;
+}
+li{
+  list-style-type: none;
+  border: 1px solid #d1d1d1;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+/* COMMON */
+
+.container{
+  width: 1080px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* HEADER */
+.header{
+  background: #000;
+  width: 100%;
+}
+header.container{
+  height: 120px;
+  box-sizing: border-box;
+}
+header.container h1{
+  line-height: 120px;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* CONTENTS */
+.contents .container{
+  padding: 40px;
+}
+.contents .container .list{
+  display: flex;
+}
+.contents .container .list li{
+  font-size: 16px;
+  height: 33px;
+  width: calc(1000px/3 - 14px);
+  margin-right: 14px;
+  line-height: 33px;
+  text-align: center;
+}
+.contents .container .list li:last-child{
+  margin-right: 0;
+}
+.contents .container .list li:hover{
+  border-color: #454545;
+  font-weight: bold;
+}
+
+.mainContents h3{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.mainContents .contents-list{
+  border-top: 1px solid #454545;
+}
+.mainContents .contents-list .content-box{
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: 1000px;
+}
+.mainContents .contents-list .content-name{
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+  font-weight: bold;
+  color: #333;
+  background: #f7f7f7;
+  border-bottom: 1px solid #d1d1d1;
+  padding-left: 15px;
+}
+.mainContents .contents-list .content-area{
+  padding:30px;
+  font-size: 12px;
+  color: #000;
+}
+
+/* FOOTER */
+footer{
+  display: flex;
+  border-top: 1px solid #d1d1d1;
+  font-size: 12px;
+  text-align: center;
+  height: 120px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .info{
+  color: #999;
+}
+footer .copyright{
+  color: #000;
+}
